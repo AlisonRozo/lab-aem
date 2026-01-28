@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/labaem-alison/:/",
-    "/content/labaem-alison/configuration:/.helix/config.json",
-    "/content/labaem-alison/metadata:/metadata.json"
+    "/content/laboratio-alison/:/",
+    "/content/laboratio-alison/configuration:/.helix/config.json",
+    "/content/laboratio-alison/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/labaem-alison/"
+    "/content/laboratio-alison/"
   ]
 }
