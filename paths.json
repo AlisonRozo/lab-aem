@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/aem-lab-alison/:/",
-    "/content/aem-lab-alison/configuration:/.helix/config.json",
-    "/content/aem-lab-alison/metadata:/metadata.json"
+    "/content/aem-alison/:/",
+    "/content/aem-alison/configuration:/.helix/config.json",
+    "/content/aem-alison/metadata:/metadata.json"
   ],
   "includes": [
     "/content/aem-boilerplate/"
