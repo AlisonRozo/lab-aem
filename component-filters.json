@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "quote"
+      "quote",
+      "mi-primer-banner"
     ]
   },
   {
@@ -38,6 +39,14 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "mi-primer-banner",
+    "components": [
+      "text",
+      "image",
+      "button"
     ]
   }
 ]

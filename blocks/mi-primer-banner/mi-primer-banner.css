@@ -1,0 +1,89 @@
+.block.mi-primer-banner {
+  margin: 2rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.mi-primer-banner .banner-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.mi-primer-banner .banner-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.mi-primer-banner .banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mi-primer-banner .banner-content {
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.mi-primer-banner .banner-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0 1rem;
+  color: white;
+}
+
+.mi-primer-banner .banner-subtitle {
+  font-size: 1.2rem;
+  margin: 0 0 2rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.mi-primer-banner .banner-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mi-primer-banner .banner-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  background-color: #f8f9fa;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .mi-primer-banner .banner-container {
+    flex-direction: row;
+    min-height: 500px;
+  }
+
+  .mi-primer-banner .banner-image {
+    width: 50%;
+    height: auto;
+  }
+
+  .mi-primer-banner .banner-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+  .mi-primer-banner .banner-title {
+    font-size: 3rem;
+  }
+}
