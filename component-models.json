@@ -212,13 +212,6 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAltNew",
-        "label": "Alt New",
-        "value": ""
       }
     ]
   }
